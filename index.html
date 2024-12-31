@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>number game</title>
+
+  <style>
+
+    body{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .boxprop{
+      width: 150px;
+      border-radius: 5px;
+      height:150px ;
+      font-size: 30px;
+    
+color: yellow;
+background-color: yellow;
+    }
+
+    .flip{
+      color: #1B2528;
+      background-color: skyblue;
+    }
+
+    .boxprop1{
+      border:2px solid red;
+    }
+
+    .bg{
+      background-color: #1B2528;
+    }
+
+    .box{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 10px;
+    }
+
+    #submit{
+      width: 150px;
+      height: 50px;
+      margin-top: 40px;
+      font-size: 22px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      background-color:#25D336;
+      color: WHITE;
+      font-weight: 700;
+      display: none;
+    }
+
+    #submit:hover{
+      border:2px solid green;
+    }
+
+    
+
+    h2{
+      color: #25D336;
+      font-size: 30px;
+      font-family: sans-serif;
+      margin: 20px;
+      margin-bottom: 30px;
+      
+    }
+
+    h1{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 50px ;
+      font-style: bold;
+      font-weight: 900;
+      letter-spacing: 3px;
+      color: red;
+    }
+  </style>
+ </head>
+ <body>
+
+  <h1>Memory game</h1>
+
+  <h2> Number game</h2>
+
+  <div class="box">
+
+  </div>
+
+  <button type="submit" id="submit">submit</button>
+  <script src="script.js"></script>
+ </body>
+ </html>
